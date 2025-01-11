@@ -65,7 +65,7 @@ def download(tickers, start=None, end=None, actions=False, threads=True,
             Include Pre and Post market data in results?
             Default is False
         auto_adjust: bool
-            Adjust all OHLC automatically? Default is True
+            Adjust all OHLC automatically? This removes all Adj prefixes. Default is True
         repair: bool
             Detect currency unit 100x mixups and attempt repair
             Default is False
